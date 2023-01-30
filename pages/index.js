@@ -67,7 +67,7 @@ export default function Home() {
                 rel="noreferrer"
                 href="/files/EthanLee_Resume.pdf"
               >
-                Résumé
+                Resumé
               </a>
             </li>
           </ul>
@@ -116,8 +116,8 @@ export default function Home() {
                 Hello! I’m a solution-driven fullstack developer who likes to
                 build new things in a collaborative environment. I have strong
                 interest in building web applications that follow good
-                Cybersecurity practices. I believe key to success is persistence
-                and perseverance.
+                Cybersecurity practices. I believe a key to success is
+                persistence and perseverance.
               </p>
               <h3 className="text-3xl py-6 text-gray-300 mt-10">Tech Stacks</h3>
               <ul className="text-5xl flex justify-center gap-8 py-2 text-gray-300  flex-col sm:flex-row sm:flex-wrap">

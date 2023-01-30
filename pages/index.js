@@ -207,8 +207,8 @@ export default function Home() {
               <p className="py-2 text-gray-300">
                 E-Commerce website where users can signup/login to purchase or
                 save Harry Potter goods using shopping cart and checkout system.
-                It is Built with PostgreSQL, Express.js, React/Redux, Node.js.
-                Checkout/payment system is enabled using Stripe.
+                It is built with PostgreSQL, Express.js, React/Redux, and
+                Node.js. Checkout/payment system is enabled using Stripe.
               </p>
             </div>
             <div className="text-center shadow-lg p-2">

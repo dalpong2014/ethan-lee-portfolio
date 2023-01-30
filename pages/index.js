@@ -73,7 +73,7 @@ export default function Home() {
           </ul>
         </nav>
         {/* main content */}
-        <div className="text-center grid grid-cols-2">
+        <div className="text-center grid grid-cols-1 md:grid-cols-2 ">
           <div>
             <div>
               <h2 className="text-5xl text-gray-300 font-medium md:text-6xl">
@@ -82,7 +82,7 @@ export default function Home() {
               <h3 className="text-2xl text-gray-400 py-2 md:text-3xl">
                 Fullstack Developer
               </h3>
-              <div className="relative mx-auto rounded-full w-60 h-60 mt-5 overflow-hidden md:h-68 md:w-68">
+              <div className="relative mx-auto rounded-full w-60 h-60 mt-5 overflow-hidden">
                 <Image src={ethan} layout="fill" objectFit="cover" alt="" />
               </div>
               <p className="text-md py-5 leading-8 text-gray-400 md:text-xl max-w-xl mx-auto mt-5">
@@ -163,7 +163,7 @@ export default function Home() {
         </div>
         <div className="gap-20 text-center">
           <h3 className="text-3xl py-4 text-gray-300 mt-20"> Projects </h3>
-          <div className="grid grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             <div className="text-center p-2">
               <h5 className="text-xl py-4 text-gray-300">Pictionary</h5>
               <a
